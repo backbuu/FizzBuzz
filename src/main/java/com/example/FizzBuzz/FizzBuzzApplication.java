@@ -1,8 +1,12 @@
 package com.example.FizzBuzz;
 
 
-public class FizzBuzzApplication {
+import org.springframework.boot.SpringApplication;
 
+	public class FizzBuzzApplication {
+		public static void main(String[] args) {
+			SpringApplication.run(FizzBuzzApplication.class, args);
+		}
 	public String convert(final int number) {
 		
 		if(canDivideBy(number, 3) && canDivideBy(number, 5)) return "FizzBuzz";
