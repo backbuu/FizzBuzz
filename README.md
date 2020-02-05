@@ -1,2 +1,2 @@
 # FizzBuzz
-##Hello Project FizzBuzz
+Hello Project FizzBuzz
